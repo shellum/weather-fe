@@ -1,0 +1,6 @@
+.settings
+.vscode
+.angular
+dist
+node_modules
+.editorconfig
