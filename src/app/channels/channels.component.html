@@ -11,3 +11,10 @@ Channel Details:
     <hr>
   }
 <button (click)="getData()">Get Data</button>
+<style>
+  .demo-chart {
+    height: 400px;
+  }
+</style>
+
+<div echarts [options]="chartOption" class="demo-chart"></div>
