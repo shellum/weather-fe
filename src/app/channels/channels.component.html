@@ -2,9 +2,9 @@ Channel Details:
 @for (stat of weatherStats; track stat.id) {
     <p>Channel: {{ stat.channel }}</p>
     <p>Days out: {{ stat.days_out }}</p>
-    <p>Average low diff: {{ stat.delta_low }}</p>
-    <p>Average high diff: {{ stat.delta_high }}</p>
-    <p>Average weather diff: {{ stat.delta_weather }}</p>
+    <p>Average low diff: {{ stat.low_delta }}</p>
+    <p>Average high diff: {{ stat.high_delta }}</p>
+    <p>Average weather diff: {{ stat.weather_delta }}</p>
     <p>Max low diff: {{ stat.max_delta_low }}</p>
     <p>Max high diff: {{ stat.max_delta_high }}</p>
     <p>Max weather diff: {{ stat.max_delta_weather }}</p>
